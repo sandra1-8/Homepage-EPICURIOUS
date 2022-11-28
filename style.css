@@ -1,0 +1,90 @@
+html{
+    font-size: 12px;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:200px;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:50px;
+    color: red;
+}
+
+#right {
+    float:right;
+    width:300px;
+}
+
+.background{
+    height: 300px;
+    background-image: url("https://assets.epicurious.com/photos/63111a081d03f6c6d90249d9/9:4/w_684,h_304,c_limit/Fortune_Cookie_Magic_Shell_HERO_082522_39213.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size:cover;
+    text-align: center;
+    padding-top:100px ;
+    opacity: 0.9;
+    
+}
+.para{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:red;
+    font-weight: bolder;
+    font-family: 'Reem Kufi Fun', sans-serif;
+
+}
+
+/*.list-styling{
+    font-size:large;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type:circle;
+    list-style-position: inside;
+    text-align: left;
+    color: rgb(53, 38, 184);
+    list-style-position: inside;
+    }*/
+
+table{
+   
+    margin-left: 450px;
+    padding: 10px;
+    font-size: larger;
+    border-spacing: 35px;
+    
+}
+#t1{
+    background-color: antiquewhite;
+    font-size:medium;
+    padding:2px;
+    opacity: .75;
+}
+#t2{
+    background-color: rgba(161, 177, 92, 0.788);
+}
+#t3{
+    background-color:  rgba(161, 177, 92, 0.788);;
+}
+#t2:hover{
+    background-color: rgb(103, 111, 221);
+    padding: 2px;
+    font-weight:bold; 
+    margin:2px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+#t3:hover{
+    background-color: rgb(231, 28, 28);
+    padding: 2px;
+    font-weight: bold;
+    margin: 2px;
+
+}
